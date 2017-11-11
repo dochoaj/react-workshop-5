@@ -84,7 +84,7 @@ class Board extends Component {
     this.props.addStage(stage.title);
   }
 
-  discardTask = () => {
+  discardStage = () => {
     this.setState({
       emptyStages: [],
       canCreate: true,

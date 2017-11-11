@@ -9,7 +9,7 @@ const stageTarget = {
   drop(targetProps, monitor) {
     const item = monitor.getItem();
 
-    if (targetProps.title != item.stage) {
+    if (targetProps.title !== item.stage) {
       targetProps.takeTask(item.id, targetProps.title);
     }
   }
