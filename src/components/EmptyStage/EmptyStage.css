@@ -1,0 +1,16 @@
+.EmptyStage-container {
+  display: flex;
+  width: 100%;
+}
+
+.EmptyStage-title {
+  color: #5D5D5D;
+  font-size: 18px;
+  justify-content: center;
+  font-weight: 400;
+  display: flex;
+}
+
+.EmptyStage-content {
+  width: 100%;
+}

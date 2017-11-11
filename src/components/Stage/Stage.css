@@ -1,0 +1,26 @@
+.Stage-container {
+  display: flex;
+  width: 100%;
+}
+
+.Stage-title {
+  color: #5D5D5D;
+  font-size: 18px;
+  justify-content: center;
+  font-weight: 400;
+  display: flex;
+}
+
+.Stage-content {
+  width: 100%;
+}
+
+.Stage-tasks {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.Stage-tasks > * {
+  margin-top: 10px;
+}

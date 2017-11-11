@@ -1,0 +1,25 @@
+.EmptyTask-container {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  color: #4A4A4A;
+  max-width: 100%;
+}
+
+.EmptyTask-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.EmptyTask-title {
+  font-weight: bold;
+  color: #5D5D5D;
+  font-size: 16px;
+}
+
+.EmptyTask-description {
+  font-size: 14px;
+  padding: 5px 20px 0px 5px;
+}
+
